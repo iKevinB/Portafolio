@@ -1,0 +1,131 @@
+#arrow-left{
+    z-index: 100;
+    position: absolute;
+    color: var(--main-color);
+    font-size: 20px;
+    left: 1em;
+    top: 4em;
+}
+.project1-container{
+    position: absolute;
+    top: 5em;
+    justify-items: center;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.project1-container h4{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.project-img img{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 85%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+
+
+@media (min-width: 425px){
+    .project1-container p{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    .project-img img{
+        width: 85%;
+    }
+    .img-movil{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    #img-movile-grid{
+        margin-left: 7em;
+    }
+    #img-movil-p1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 480px){
+    #img-movile-grid{
+        margin-left: 8em;
+    }
+}
+@media (min-width: 768px){
+    .project-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .img-movil{
+        width:100%;
+        margin: auto;
+    }
+    .img-movil img{
+        width: 85%;
+        height: 80%;
+    }
+    .project-img img{
+        width: 90%;
+
+        
+    }
+    .img-movil{
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .project1-container{
+        top: 4em;
+    }
+    #img-movile-grid{
+        margin-left: 0;
+    }
+       
+}
+@media (min-width: 1024px){
+    .project1-container{
+        top: 5em;
+    }
+    #arrow-left{
+        left: 3em;
+        top: 6em;
+        transition: 0.3s;
+    }
+    #arrow-left:hover{
+        transform: scale(1.3);
+    }
+    .project-img{
+        width: 90%;
+        margin: auto;
+    }
+    .img-movil{
+        width: 70%;
+    }
+    .project-img img{
+        width: 95%;
+    }
+}
+@media (min-width: 1200px){
+    .project1-container{
+        top: 6em;
+    }
+    .project-img{
+        width: 85%;
+    }
+    .img-movil{
+        width: 90%;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .project-img img{
+        width: 85%;
+    }
+}
+
+

@@ -1,0 +1,157 @@
+#arrow-left{
+    z-index: 98;
+}
+.services{
+    height: 60vh;
+    margin-top: 10em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#design{
+    display: none;
+}
+.services__container{
+
+    text-align: center;
+    justify-content: center;
+}
+.services__container p{
+    margin-top: 3em;
+}
+.services__blocks{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+
+}
+.services__blocks a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.services__blocks a:hover{
+    text-decoration: underline;
+    color: red;
+
+}
+
+.block1,
+.block2{
+    border-radius: 5px;
+    height: 100px;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #C7FFED,#544bd6);
+    filter: drop-shadow(3px 3px 3px gray);
+}
+.block2 p{
+    margin-top: 23px;
+}
+.background-img{
+    opacity: 0.2;
+    position: absolute;
+    width: 200px;
+    z-index: -1;
+    overflow-x: hidden;
+}
+#img3{
+    top: 7em;
+    left: -4em;
+    rotate: 25deg;
+}
+#img2{
+    top: 2em;
+    right: 0;
+}
+#img1{
+    bottom: 1px;
+    right: 3em;
+}
+/* services-webDevelopment */
+.services-webDevelopment{
+    position: absolute;
+    width: 90%;
+    top: 6em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+  
+
+/* animation */
+.animated-text{
+    white-space: nowrap;
+    border-right: 3px solid;
+    width: 12em;
+    margin: auto;
+
+    animation: typing 3s steps(13) infinite alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from { width: 0}
+    to { width: 45%;}
+}
+
+@media (min-width: 480px){
+    .services__blocks{
+        width: 80%;
+    }
+}
+@media (min-width: 768px){
+    .services__container p{
+        font-size: 18px;
+    }
+    .services__blocks{
+        width: 60%;
+    }
+    .services-webDevelopment{
+        width: 80%;
+    }
+    @keyframes typing {
+        from { width: 0}
+        to { width: 30%;}
+    }
+}
+@media (min-width: 1024px){
+    .services__blocks{
+        width: 40%;
+    }
+    .services-webDevelopment{
+        top: 10em;
+        width: 70%;
+    }
+    .background-img{
+        width: 300px;
+    }
+    #img3{
+        top: 10em;
+        left: -4em;
+        rotate: 25deg;
+    }
+    #img2{
+        top: 4em;
+        right: 0;
+    }
+    #img1{
+        bottom: 1px;
+        right: 3em;
+    }
+}
+@media (min-width: 1440px){
+    .services__blocks{
+        width: 50%;
+    } 
+    .background-img{
+        width: 330px;
+    }
+    
+}

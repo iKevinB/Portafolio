@@ -1,0 +1,15 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    max-width: 1500px;
+}
+:root{
+    --main-color: #012030;
+    --skills-color: linear-gradient(to right, #1c58c0, #111f36);
+    
+}

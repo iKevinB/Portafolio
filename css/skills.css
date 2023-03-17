@@ -1,0 +1,196 @@
+.skills{
+    margin-top: 5em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.skills__container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.skills__lines_info{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+#percent{
+    position: absolute;
+    right: 15px;
+}
+.skills__lines{
+    margin-top: 4em;
+}
+.line_container{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-color: #DEEFE7;
+    border-radius: 5px;
+}
+.html_line_percent{
+    width: 90%;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    background: var(--skills-color);
+    margin-left: 4px;
+    border-radius: 7px;
+}
+.css_line_percent{
+    width: 85%;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    background: var(--skills-color);
+    margin-left: 4px;
+    border-radius: 7px;
+}
+.js_line_percent{
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    background: var(--skills-color);
+    margin-left: 4px;
+    border-radius: 7px;
+}
+.react_line_percent{
+    width: 65%;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    background: var(--skills-color);
+    margin-left: 4px;
+    border-radius: 7px;
+}
+.php_line_percent{
+    width: 70%;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    background: var(--skills-color);
+    margin-left: 4px;
+    border-radius: 7px;
+}
+.laravel_line_percent{
+    width: 50%;
+    height: 10px;
+    position: absolute;
+    top: 4px;
+    display: flex;
+    align-items: center;
+    background: var(--skills-color);
+    margin-left: 4px;
+    border-radius: 7px;
+}
+.line_container p{
+    background-color: #111f36;
+    border-radius: 50px;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    right: -5px;
+}
+#html-icon{
+    color: orange;
+}
+#css-icon{
+    color: skyblue;
+}
+#javascript-icon{
+    color: rgb(240, 240, 19);
+}
+#react-icon{
+    color: rgb(12, 235, 235);
+}
+#php-icon{
+    color: purple;
+}
+#laravel-icon{
+    color: red;
+}
+#bootstrap-icon{
+    color: blueviolet;
+}
+#wordpress-icon{
+    color: rgb(12, 161, 220);
+}
+#sql-icon{
+    color: rgb(87, 87, 87);
+}
+#csharp-icon{
+    color: purple;
+}
+#sharp{
+    color: purple;
+}
+.skills__others{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#others{
+    margin-top: 2em;
+}
+@media (min-width: 480px){
+    .line_container{
+        width: 90%;
+    }
+    #percent{
+        right: 50px;
+    }
+}
+@media (min-width: 768px){
+    .line_container{
+        width: 80%;
+    }
+    #percent{
+        right: 90px;
+    }
+    .skills__container p{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1024px){
+    .line_container{
+        width: 70%;
+    }
+    #percent{
+        right: 12em;
+    }
+    .skills__lines_info{
+        margin-left: 7em;
+    }
+    .skills__others{
+        width: 70%;
+        margin: auto;
+        font-size: 18px;
+    }
+}
+@media (min-width: 1440px){
+    .line_container{
+        width: 55%;
+    }
+    #percent{
+        right: 20em;
+    }
+    .skills__lines_info{
+        margin-left: 15em;
+    }
+    .skills__others{
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+    }
+}

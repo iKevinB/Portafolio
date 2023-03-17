@@ -1,0 +1,23 @@
+footer{
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer__container{
+    width: 100%;
+    background-color: var(--main-color);
+    color: white;
+    padding: 3px;
+    text-align: center;
+
+}
+
+@media (min-width: 768px){
+    .footer__container{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1440px){
+    .footer__container{
+        width: 100%;
+    }
+}
