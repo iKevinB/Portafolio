@@ -1,5 +1,5 @@
 .skills{
-    margin-top: 5em;
+    margin-top: 7em;
     font-family: 'Josefin Sans', sans-serif;
 }
 .skills__container{
@@ -152,6 +152,9 @@
     }
 }
 @media (min-width: 768px){
+    .skills{
+        margin-top: 8em;
+    }
     .line_container{
         width: 80%;
     }
