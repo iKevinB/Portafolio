@@ -66,12 +66,13 @@
 }
 .header-media{
     position: fixed;
-    bottom: 2em;
+    bottom: 4em;
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size: 22px;
+    font-size: 25px;
 }
+
 .header-content{
     position: absolute;
     top: 3em;
@@ -98,7 +99,7 @@
 }
 .header-content button{
     cursor: pointer;
-    margin-top: 1em;
+    margin-top: 3em;
     border: none;
     background: var(--skills-color);
     color: white;
